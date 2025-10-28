@@ -1,0 +1,68 @@
+main {
+    font-family: Canadiana, arial, sans-serif;
+    position: relative;
+}
+.article1 {
+    margin: auto;
+    width: 70%;
+    
+}
+.img1{
+    width: 50%
+}
+.texteimg1 {
+    width: 50%
+}
+.inscrire {
+    background-color: #003087;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    width: max-content;
+    font-weight: 600;
+}
+.inscrire:hover {
+    background-color: #002973;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: #003087
+}
+.inscrire a{
+    color: #fff;
+}
+.clavardage a{
+    color: #fff;
+}
+.session {
+    background-color: white;
+    border: solid #003087 3px;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    width: max-content;
+    font-weight: 600;
+}
+.session:hover {
+    background-color: #c8c8c8;
+    text-decoration: underline;
+}
+.clavardage {
+    background-color: #003087;
+    border-radius: 20px;
+    padding: 12px;
+    width: max-content;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-weight: 600;
+}
+.clavardage:hover {
+    background-color: #002973;
+}
+h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: Canadiana, arial, sans-serif;
+}
