@@ -1,13 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 main {
-    font-family: Canadiana, arial, sans-serif;
+    font-family: arial, sans-serif;
     position: relative;
+}
+article {
+    position: relative;
+}
+.timbre {
+    background-color: #B6875E;
+    height: 500px;
+    display: flex;
+    width: 66%;
+    color: white;
+    margin: auto;
+}
+.timbre_gauche {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 0 100px;
+    padding-left: 230px;
+    width: 50%;
+    box-sizing: border-box;
+}
+.timbre_droite {
+    width: 50%;
+}
+.timbre_gauche h1 {
+    font-size: 2.7em;
+    margin-bottom: 10px;
+}
+.timbre_gauche p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.img1 {
+    width: 100%;
+    height: 100%;
+}
+.img2 {
+    margin: 0 10px 0 0;
+}
+.bulle1 {
+    background-color: white;
+    color: darkblue;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    width: fit-content;
+    font-weight: bold;
+}
+.bulle1:hover {
+    background-color: #baaca0;
+    text-decoration: underline;
+}
+.bas_timbre {
+    background-color: #f2f2f2;
+    height: 500px;
+    width: 66%;
+    margin: auto;
+    position: relative;
+}
+.bas_timbre div {
+    background-color: #B6875E;
+    border-radius: 5px;
+    width: 168px;
+    height: 168px;
+    position: absolute;
+    bottom: 80px;
+    right: 250px;
 }
 .article1 {
     margin: auto;
     width: 70%;
-    
 }
-.img1{
+.img3{
     width: 50%
 }
 .texteimg1 {
@@ -65,4 +134,73 @@ h2 {
     font-size: 2rem;
     line-height: 2.5rem;
     font-family: Canadiana, arial, sans-serif;
+}
+.img4 {
+    margin: 0 10px 0 0;
+}
+.boite1 {
+  background-color: white;
+  border-radius: 5px;
+  width: 400px;
+  padding: 20px;
+}
+.boite1 a:hover {
+  text-decoration: underline;
+}
+.boite_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boite_top h2 {
+  font-size: 1em;
+}
+.boite_top a {
+  font-size: 0.9em;
+  color: #1717c8;
+  text-decoration: none;
+}
+.barre_recherche {
+  flex: 1;
+  background-color: #eef8ff;
+  border-radius: 3px;
+  display: flex;
+  padding: 20px 0;
+  border: 1px solid #929292;
+}
+.barre_recherche .button {
+    background-color: blue;
+    height: 100%;
+    width: 20%;
+    right: 0;
+    color: white;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+.section1 {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #d1d1d1;
+}
+.section1 span {
+  font-size: 1.3em;
+}
+.section1 p {
+  flex: 1;
+  font-size: 0.95em;
+    font-weight: bold;
+}
+.fleche {
+  color: #1717c8;
+  font-size: 1.2em;
+}
+.boite_bas {
+  display: block;
+  text-decoration: none;
+  margin-top: 20px;
+    color: #1717c8
 }
