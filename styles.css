@@ -143,9 +143,12 @@ h2 {
 .boite1 {
     background-color: white;
     border-radius: 5px;
-    width: 400px;
+    width: 500px;
     padding: 20px;
     border: solid #d1d1d1 1px;
+    position: absolute;
+    left: 26%;
+    top: 42%;
 }
 .boite1 a:hover {
     text-decoration: underline;
@@ -212,7 +215,7 @@ hr {
     display: flex;
     gap: 16px;
     padding: 0 0 16px 0;
-    width: 80%;
+    width: 50%;
     margin: auto;
 }
 .boite2 {
@@ -222,7 +225,7 @@ hr {
     margin: 20px 0;
 }
 .titre2 {
-    width: 80%;
+    width: 50%;
     margin: auto;
 }
 .boite3 {
