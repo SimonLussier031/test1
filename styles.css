@@ -76,14 +76,28 @@ p {
     right: 250px;
 }
 .article1 {
+    height: 0%;
+    display: flex;
+    width: 50%;
     margin: auto;
-    width: 70%;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 .img3 {
-    width: 50%;
+    width: 100%;
+    height: 100%;
 }
-.texteimg1 {
+.article1_gauche {
+        width: 50%;
+}
+.article1_droite {
+    display: flex;
+    flex-direction: column;
     width: 50%;
+    align-items: center;
+    padding: 50px 30px;
+    box-sizing: border-box;
 }
 .inscrire {
     background-color: #003087;
