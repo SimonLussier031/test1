@@ -270,3 +270,28 @@ hr {
 .boite4 a:hover {
     text-decoration: underline;
 }
+.boite6 {
+    height: 35%;
+    display: flex;
+    width: 22%;
+    margin: auto;
+    position: absolute;
+    right: 28%;
+    top: 55%;
+    background-color: #fff;
+}
+.boite6_gauche {
+    width: 50%;
+}
+.boite6_droite {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    padding: 50px 30px;
+    box-sizing: border-box;
+}
+.img5 {
+    width: 100%;
+    height: 100%;
+}
