@@ -171,7 +171,7 @@ h2 {
     padding: 20px 0;
     border: 1px solid #929292;
 }
-.barre_recherche .button a{
+.barre_recherche .button a {
     background-color: #003087;
     height: 100%;
     width: 20%;
@@ -249,10 +249,18 @@ hr {
     width: 37%;
     margin: 30px 0;
 }
+.boite2 a {
+    color: #003087;
+}
+.boite3 a,
+.boite4 a {
+    color: #fff;
+}
 .boite2 a::after,
 .boite3 a::after,
 .boite4 a::after {
-  content: " >";
+    content: " >";
+    font-weight: bold;
 }
 .boite2 a:hover,
 .boite3 a:hover,
