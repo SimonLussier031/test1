@@ -1,6 +1,131 @@
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
 body {
-    margin: 0;
-    padding: 0;
+  font-family: Arial, Helvetica, sans-serif; background: white; color: #111; 
+}
+
+
+header{
+  background-color: #f2f2f2;       
+
+}
+.nav-gauche a.personnel{
+  background-color: #e4002b;
+  color: white;
+  border-radius: 6px;
+  padding: 6px 12px;    
+}
+
+
+.premiere-line{
+  max-width: 1200px;    
+  margin: 0 auto;       
+  padding: 8px 20px;  
+  background-color: #f2f2f2; 
+}
+
+
+.nav-un{
+  display: flex;
+  justify-content:space-between;  
+  align-items: center;              
+}
+
+.nav-un ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;       
+}
+
+
+.nav-un a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 24px;   
+}
+
+.nav-un a:hover{
+  font-weight: bold;    
+}
+
+
+.nav-droit svg{
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;  
+  margin-right: 6px;       
+}
+
+.deuxieme-line{
+  position: sticky;
+  top: 0;                 
+  z-index: 1000;        
+  background: white;      
+  border-bottom: 1px solid lightgray;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8px 20px;
+}
+.sticky-wrap{
+  position: sticky;       
+  top: 0;
+  z-index: 1000;
+  background:white;
+  border-bottom: 1px solid lightgray;
+}
+
+
+.nav-deux{
+  display: flex;
+  justify-content:space-between;  
+  align-items: center;              
+}
+
+.nav-deux ul{
+  list-style: none;
+  display: flex;
+  gap: 32px;       
+}
+
+
+.nav-deux a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  line-height: 24px;   
+}
+
+.nav-deux a:hover{
+  font-weight: bold;    
+}
+
+
+.nav-deux-droit li{
+  display: flex;
+  align-items: center;    
+}
+.nav-deux-droit a{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+}
+.nav-deux-gauche a svg{
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+.nav-deux-gauche li{
+  display: flex;
+  align-items: center;    
+}
+.nav-deux-gauche a{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+
 }
 header {
     background-color: #f2f2f2;
